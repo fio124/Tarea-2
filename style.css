@@ -1,0 +1,138 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    /*background-color: #f0f0f0;*/
+    margin: 100px;
+    color: #333;
+    padding: 20px;
+}
+nav{
+    border-radius: 10px;
+    background-color: aaacad;
+    list-style-type: none;
+}
+a:hover{
+    color:#9fc76a
+}
+a:visited{
+    color:rgb(197, 129, 65)
+}
+a:link{
+    color:#755656
+}
+a {
+    text-decoration: none;
+}
+/*difuminado para el fondo de la pagina*/
+body{
+    background-image: radial-gradient(circle at 48.74% 47.3%, #fffff8 0, #ffefe5 25%, #f2dacd 50%, #e5c5b7 75%, #dcb4a6 100%);
+}
+/* Agrega una sombra sutil */
+body {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+header, footer{
+    /*background-color: D4CCC8;*/
+    color: #fff;
+    text-align: center;
+    padding:auto;
+    border-radius: 10px;
+}
+main{
+    /*background-color: #fff;*/
+    padding: 20px;
+    margin-top:20px;
+    border-radius: 5px;
+    text-align: justify;
+    max-width: auto;
+}
+h1, h2{
+    margin-bottom: 10px;
+}
+#informacion_personal{
+    /*background-color: #fff; /* Color de fondo de cada sección */
+    border: 1px solid #fff; /* Añade un borde a cada sección */
+    border-radius: 5px; /* Añade bordes redondeados a cada sección */
+    padding: 15px; /* Ajusta el relleno alrededor del contenido */
+    margin-bottom: 20px; /* Agrega espacio entre cada sección */
+}
+img{
+    width: auto;
+    height: 200px; 
+    margin:200px;
+    border-radius: 10px;
+    float: right;
+}
+#informacion_academica  {
+    text-align: justify;
+    /*background-color: #fff;*/
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+#habilidades_tecnicas{
+    /*background-color: #fff; */
+    border: 1px solid #fff; 
+    border-radius: 5px;
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+#proyectos_destacados{
+   /* background-color: #fff; */
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+#cursos_adicionales{
+    /*background-color: #fff; */
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+#idiomas{
+    /*background-color: #fff; */
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+#experiencia_laboral{
+    /*background-color: #fff; */
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+/* para la tabla*/
+#experiencia_laboral table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/*para hacer las orillas de la tabla redondas*/
+#experiencia_laboral th, #experiencia_laboral td {
+    border: 1px solid #fff;
+    padding: 8px;
+    text-align: left
+}
+
+/*color para el encabezado*/
+#experiencia_laboral th {
+    background-color: #bbb1b1;
+}
+
+/*color para el pie o ultimo row*/
+#experiencia_laboral tfoot td {
+    background-color: #bbb1b1;
+    font-weight: bold;
+}
+
+#intereces{
+    /*background-color: #fff */
+    border: 1px solid #fff;
+    border-radius: 5px; 
+    padding: 10px ;
+    margin-bottom: 20px; 
+}
